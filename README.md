@@ -20,6 +20,11 @@ banner?.show()
          self.seleNews(noticeId: noticeId)
     }
 ```
+
+
+![gif动图.gif](https://upload-images.jianshu.io/upload_images/3305752-e78589a27acfd513.gif?imageMogr2/auto-orient/strip)
+
+
 除了这种简单用法还有很多功能可以选择，比如选择不同的版本样式等
 
 本地通知：<https://www.jianshu.com/p/e323e27dba15>
