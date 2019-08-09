@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF37D985F0B8807955ACB3ED36ABC59 /* EBEmptyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC9A837D0D6291578C3F02C1204B427 /* EBEmptyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D4577ABD2844E6068CB3251F01B9138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9861D69EABEC6293466E1C9C3D5400B /* UIKit.framework */; };
+		11B603795CA49D414BC012563E2AA0FA /* EBCustomBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF84FD43D07F2A371861A001FFFAFC8C /* EBCustomBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164C5B30DC711F48F6631593CD01A6AD /* EBBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C21F79F72B1A65331B115128DDED02 /* EBBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A69886A32D7962928E6670DC6A795A2 /* EBBannerWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BC88B04F9010A9CFF61AABEBC052F2 /* EBBannerWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C04CFF92628ADF72532981050498C00 /* EBEmptyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A55FE4167317EEB805BC5EF39515EE34 /* EBEmptyWindow.m */; };
+		1F41F65134C15BD298693FE806ED866D /* EBBannerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 953227FCD06D558E6FC93F4AE4259FEB /* EBBannerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29767AA418B6A5D08EADCEB4F9484CBB /* EBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03C9D28932E1DDB08FED031C9637378 /* EBBannerView.m */; };
+		2CB2C9EDC99941ED698D5B01BA72E980 /* EBMuteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 780BF5CE828C50B6144B472AE36232B2 /* EBMuteDetector.m */; };
+		2DC098D2208060AF421F68D7CBB8C363 /* EBBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640EC6639F92CD8B229F0FE0ABFF74A2 /* EBBannerViewController.m */; };
+		3B88588EA26D01FB34D8587946B6E2DF /* EBCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A412A6D5D5CF0BC57B56D021D78720B /* EBCustomBannerView.m */; };
+		4A15BCA97DEF88DB7F59D57556884A1D /* EBBannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C65765D6AB1F1F91686BE3E8DFBCCF /* EBBannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC33AF6DED43DF089AB2E62F340532A /* EBBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C61EAAA91B16354D931871B51E827 /* EBBannerView.xib */; };
+		5DBBB7A8009E13743FA55A8BF80AE68B /* EBMuteDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB6B976ED43AFF2C37D63F554F1A87B /* EBMuteDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C2B882AA1D3456C3298BE190C6DFAE7 /* EBBannerView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 51992A58B36B870A8D254D8F7592C3AE /* EBBannerView+Categories.m */; };
+		852A9CB3B67B41AA63075BD253E03590 /* Pods-EBBanerViewTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7E655FFDA11E043C452E885C3BD238 /* Pods-EBBanerViewTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C46753F72DF4F2F5F875E44D55C1CDC /* EBBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609E4D504736203E22113D48D977F0D2 /* EBBannerViewController.xib */; };
+		A16EA3A22D881625AB91D445084A3859 /* EBBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5E870C0C746C23164C09A4E6B6939 /* EBBannerWindow.m */; };
+		A3199522C2D7680CBB5F069154A94734 /* EBBannerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C371EA9C6E9AB7AAD0EA6701484CCA /* EBBannerView-dummy.m */; };
+		C1D9F9A4718F7F1C246C5E6B23E99A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D2BB5C665D9A5A6CA93CF30127F445 /* Foundation.framework */; };
+		E213272DF738731BD535197F5BFB5191 /* Pods-EBBanerViewTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517031C0142C500211F56A938996B6B9 /* Pods-EBBanerViewTest-dummy.m */; };
+		E63CA3575B82842E30845352B18F87C7 /* EBBannerViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8C9E29D141E1648A5540B3ACB28855 /* EBBannerViewMaker.m */; };
+		EDF2D267C08E7234645557C0331EF998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D2BB5C665D9A5A6CA93CF30127F445 /* Foundation.framework */; };
+		F4206AE01C247F43C544E4E4CD09F1D9 /* EBBannerView+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = F491B4F411B9C93B05967E0BCABF1B1D /* EBBannerView+Categories.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F62E9A561033BC7E23AFE1D2FA1544CF /* EBMuteDetector.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C0450C7045D1B4B6ABD5BB3191132B9 /* EBMuteDetector.mp3 */; };
+		F7C103F23863B09FA10B3FFBA6A47E4F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF13946F91B18C6EE57AC4AD98D81B6 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B65D593697C4E787C1ECC5EEEB5EEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F0022AD7BE65064C837E4B6E1D8006;
+			remoteInfo = EBBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E94035F8C4637617B32191BF40D31B1 /* Pods-EBBanerViewTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EBBanerViewTest-frameworks.sh"; sourceTree = "<group>"; };
+		15C65765D6AB1F1F91686BE3E8DFBCCF /* EBBannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBBannerViewController.h; path = EBBannerView/EBBannerViewController.h; sourceTree = "<group>"; };
+		1D8C9E29D141E1648A5540B3ACB28855 /* EBBannerViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBBannerViewMaker.m; path = EBBannerView/Classes/EBBannerViewMaker.m; sourceTree = "<group>"; };
+		247DF29ED345190562AD0E20D031B2D0 /* EBBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EBBannerView.framework; path = EBBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3745DD722EAB95AA3122DEEBE5B9E3 /* Pods-EBBanerViewTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EBBanerViewTest.modulemap"; sourceTree = "<group>"; };
+		2B6074B6F9E8A4490EEF7D41442C2FCA /* Pods-EBBanerViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EBBanerViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7E655FFDA11E043C452E885C3BD238 /* Pods-EBBanerViewTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EBBanerViewTest-umbrella.h"; sourceTree = "<group>"; };
+		31C371EA9C6E9AB7AAD0EA6701484CCA /* EBBannerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EBBannerView-dummy.m"; sourceTree = "<group>"; };
+		32BC88B04F9010A9CFF61AABEBC052F2 /* EBBannerWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBBannerWindow.h; path = EBBannerView/Classes/EBBannerWindow.h; sourceTree = "<group>"; };
+		360FC5C54FAEFF4BE23558FF32B03FC6 /* EBBannerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EBBannerView.modulemap; sourceTree = "<group>"; };
+		3C0450C7045D1B4B6ABD5BB3191132B9 /* EBMuteDetector.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = EBMuteDetector.mp3; path = EBBannerView/Classes/EBMuteDetector.mp3; sourceTree = "<group>"; };
+		47C21F79F72B1A65331B115128DDED02 /* EBBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBBannerView.h; path = EBBannerView/EBBannerView.h; sourceTree = "<group>"; };
+		517031C0142C500211F56A938996B6B9 /* Pods-EBBanerViewTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EBBanerViewTest-dummy.m"; sourceTree = "<group>"; };
+		51992A58B36B870A8D254D8F7592C3AE /* EBBannerView+Categories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EBBannerView+Categories.m"; path = "EBBannerView/Classes/EBBannerView+Categories.m"; sourceTree = "<group>"; };
+		5FF13946F91B18C6EE57AC4AD98D81B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		609E4D504736203E22113D48D977F0D2 /* EBBannerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EBBannerViewController.xib; path = EBBannerView/Classes/EBBannerViewController.xib; sourceTree = "<group>"; };
+		640EC6639F92CD8B229F0FE0ABFF74A2 /* EBBannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBBannerViewController.m; path = EBBannerView/Classes/EBBannerViewController.m; sourceTree = "<group>"; };
+		6A399E7FEEB60D72B34CEC958DED3FDB /* EBBannerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EBBannerView-Info.plist"; sourceTree = "<group>"; };
+		6B4C61EAAA91B16354D931871B51E827 /* EBBannerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EBBannerView.xib; path = EBBannerView/Classes/EBBannerView.xib; sourceTree = "<group>"; };
+		70A17C60C75036C2EFA88ADEE20ADCE9 /* EBBannerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EBBannerView.xcconfig; sourceTree = "<group>"; };
+		7379FB574B89E21231C0A29D64751346 /* Pods_EBBanerViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EBBanerViewTest.framework; path = "Pods-EBBanerViewTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780BF5CE828C50B6144B472AE36232B2 /* EBMuteDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBMuteDetector.m; path = EBBannerView/Classes/EBMuteDetector.m; sourceTree = "<group>"; };
+		8A412A6D5D5CF0BC57B56D021D78720B /* EBCustomBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBCustomBannerView.m; path = EBBannerView/Classes/EBCustomBannerView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953227FCD06D558E6FC93F4AE4259FEB /* EBBannerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EBBannerView-umbrella.h"; sourceTree = "<group>"; };
+		986E9BB91E070EFED5A09C2C32898821 /* EBBannerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EBBannerView-prefix.pch"; sourceTree = "<group>"; };
+		A55FE4167317EEB805BC5EF39515EE34 /* EBEmptyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBEmptyWindow.m; path = EBBannerView/Classes/EBEmptyWindow.m; sourceTree = "<group>"; };
+		B02D0C35AD0D7B109F15339E12554AE5 /* Pods-EBBanerViewTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EBBanerViewTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAC9A837D0D6291578C3F02C1204B427 /* EBEmptyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBEmptyWindow.h; path = EBBannerView/Classes/EBEmptyWindow.h; sourceTree = "<group>"; };
+		BF84FD43D07F2A371861A001FFFAFC8C /* EBCustomBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCustomBannerView.h; path = EBBannerView/EBCustomBannerView.h; sourceTree = "<group>"; };
+		C03C9D28932E1DDB08FED031C9637378 /* EBBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBBannerView.m; path = EBBannerView/Classes/EBBannerView.m; sourceTree = "<group>"; };
+		CFB6B976ED43AFF2C37D63F554F1A87B /* EBMuteDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBMuteDetector.h; path = EBBannerView/Classes/EBMuteDetector.h; sourceTree = "<group>"; };
+		D3D2BB5C665D9A5A6CA93CF30127F445 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8CBB0EF1AD357C98AF7D01D9F7DFDFD /* Pods-EBBanerViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EBBanerViewTest.release.xcconfig"; sourceTree = "<group>"; };
+		E9861D69EABEC6293466E1C9C3D5400B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC58343FED9A98977983AB4B0DE6965F /* Pods-EBBanerViewTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EBBanerViewTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F491B4F411B9C93B05967E0BCABF1B1D /* EBBannerView+Categories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EBBannerView+Categories.h"; path = "EBBannerView/Classes/EBBannerView+Categories.h"; sourceTree = "<group>"; };
+		FCA5E870C0C746C23164C09A4E6B6939 /* EBBannerWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBBannerWindow.m; path = EBBannerView/Classes/EBBannerWindow.m; sourceTree = "<group>"; };
+		FCD4AE408962E42F6CB8741918482A2C /* Pods-EBBanerViewTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EBBanerViewTest-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA689CFE6320C92552E334D42310A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C103F23863B09FA10B3FFBA6A47E4F /* AudioToolbox.framework in Frameworks */,
+				C1D9F9A4718F7F1C246C5E6B23E99A22 /* Foundation.framework in Frameworks */,
+				0D4577ABD2844E6068CB3251F01B9138 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D9541A9A1ECDD1A43B0BB9F0B5B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF2D267C08E7234645557C0331EF998 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFFE03DDCFF99A94B58EBB031EC6A0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF559F753B907269A00866CF60CBC8 /* EBBannerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25ED5D27476ED7D288D19B0EEB2670CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F786D25F242C5CE35D3B41E4527791 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0948A7B23F05089F2EDE9F0C4105817 /* Pods-EBBanerViewTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25ED5D27476ED7D288D19B0EEB2670CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5FF13946F91B18C6EE57AC4AD98D81B6 /* AudioToolbox.framework */,
+				D3D2BB5C665D9A5A6CA93CF30127F445 /* Foundation.framework */,
+				E9861D69EABEC6293466E1C9C3D5400B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		347DE8FA63FAB4D6F40236E2387EF7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247DF29ED345190562AD0E20D031B2D0 /* EBBannerView.framework */,
+				7379FB574B89E21231C0A29D64751346 /* Pods_EBBanerViewTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383AA2B32A4B0A05C2BAAD9C52964947 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				360FC5C54FAEFF4BE23558FF32B03FC6 /* EBBannerView.modulemap */,
+				70A17C60C75036C2EFA88ADEE20ADCE9 /* EBBannerView.xcconfig */,
+				31C371EA9C6E9AB7AAD0EA6701484CCA /* EBBannerView-dummy.m */,
+				6A399E7FEEB60D72B34CEC958DED3FDB /* EBBannerView-Info.plist */,
+				986E9BB91E070EFED5A09C2C32898821 /* EBBannerView-prefix.pch */,
+				953227FCD06D558E6FC93F4AE4259FEB /* EBBannerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EBBannerView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0BFFE03DDCFF99A94B58EBB031EC6A0A /* Pods */,
+				347DE8FA63FAB4D6F40236E2387EF7DB /* Products */,
+				20F786D25F242C5CE35D3B41E4527791 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8AF559F753B907269A00866CF60CBC8 /* EBBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				47C21F79F72B1A65331B115128DDED02 /* EBBannerView.h */,
+				C03C9D28932E1DDB08FED031C9637378 /* EBBannerView.m */,
+				F491B4F411B9C93B05967E0BCABF1B1D /* EBBannerView+Categories.h */,
+				51992A58B36B870A8D254D8F7592C3AE /* EBBannerView+Categories.m */,
+				15C65765D6AB1F1F91686BE3E8DFBCCF /* EBBannerViewController.h */,
+				640EC6639F92CD8B229F0FE0ABFF74A2 /* EBBannerViewController.m */,
+				1D8C9E29D141E1648A5540B3ACB28855 /* EBBannerViewMaker.m */,
+				32BC88B04F9010A9CFF61AABEBC052F2 /* EBBannerWindow.h */,
+				FCA5E870C0C746C23164C09A4E6B6939 /* EBBannerWindow.m */,
+				BF84FD43D07F2A371861A001FFFAFC8C /* EBCustomBannerView.h */,
+				8A412A6D5D5CF0BC57B56D021D78720B /* EBCustomBannerView.m */,
+				BAC9A837D0D6291578C3F02C1204B427 /* EBEmptyWindow.h */,
+				A55FE4167317EEB805BC5EF39515EE34 /* EBEmptyWindow.m */,
+				CFB6B976ED43AFF2C37D63F554F1A87B /* EBMuteDetector.h */,
+				780BF5CE828C50B6144B472AE36232B2 /* EBMuteDetector.m */,
+				D220CE6A32F3326A0AAA9AEBEFE88841 /* Resources */,
+				383AA2B32A4B0A05C2BAAD9C52964947 /* Support Files */,
+			);
+			name = EBBannerView;
+			path = EBBannerView;
+			sourceTree = "<group>";
+		};
+		D220CE6A32F3326A0AAA9AEBEFE88841 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B4C61EAAA91B16354D931871B51E827 /* EBBannerView.xib */,
+				609E4D504736203E22113D48D977F0D2 /* EBBannerViewController.xib */,
+				3C0450C7045D1B4B6ABD5BB3191132B9 /* EBMuteDetector.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E0948A7B23F05089F2EDE9F0C4105817 /* Pods-EBBanerViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A3745DD722EAB95AA3122DEEBE5B9E3 /* Pods-EBBanerViewTest.modulemap */,
+				EC58343FED9A98977983AB4B0DE6965F /* Pods-EBBanerViewTest-acknowledgements.markdown */,
+				B02D0C35AD0D7B109F15339E12554AE5 /* Pods-EBBanerViewTest-acknowledgements.plist */,
+				517031C0142C500211F56A938996B6B9 /* Pods-EBBanerViewTest-dummy.m */,
+				0E94035F8C4637617B32191BF40D31B1 /* Pods-EBBanerViewTest-frameworks.sh */,
+				FCD4AE408962E42F6CB8741918482A2C /* Pods-EBBanerViewTest-Info.plist */,
+				2E7E655FFDA11E043C452E885C3BD238 /* Pods-EBBanerViewTest-umbrella.h */,
+				2B6074B6F9E8A4490EEF7D41442C2FCA /* Pods-EBBanerViewTest.debug.xcconfig */,
+				E8CBB0EF1AD357C98AF7D01D9F7DFDFD /* Pods-EBBanerViewTest.release.xcconfig */,
+			);
+			name = "Pods-EBBanerViewTest";
+			path = "Target Support Files/Pods-EBBanerViewTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1978FC0C0EF2540BB885D9282B5B84E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4206AE01C247F43C544E4E4CD09F1D9 /* EBBannerView+Categories.h in Headers */,
+				1F41F65134C15BD298693FE806ED866D /* EBBannerView-umbrella.h in Headers */,
+				164C5B30DC711F48F6631593CD01A6AD /* EBBannerView.h in Headers */,
+				4A15BCA97DEF88DB7F59D57556884A1D /* EBBannerViewController.h in Headers */,
+				1A69886A32D7962928E6670DC6A795A2 /* EBBannerWindow.h in Headers */,
+				11B603795CA49D414BC012563E2AA0FA /* EBCustomBannerView.h in Headers */,
+				0CF37D985F0B8807955ACB3ED36ABC59 /* EBEmptyWindow.h in Headers */,
+				5DBBB7A8009E13743FA55A8BF80AE68B /* EBMuteDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651AAFFF7B1440EAE41752FF39F02E3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A9CB3B67B41AA63075BD253E03590 /* Pods-EBBanerViewTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		91F0022AD7BE65064C837E4B6E1D8006 /* EBBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17028F72E384F366638AE95AE207479E /* Build configuration list for PBXNativeTarget "EBBannerView" */;
+			buildPhases = (
+				1978FC0C0EF2540BB885D9282B5B84E2 /* Headers */,
+				70B25C6ED2BC9CAFC23246ADD0C12BD9 /* Sources */,
+				1CA689CFE6320C92552E334D42310A64 /* Frameworks */,
+				D303FAA3A9AF9E02AA9C5AB17FA30E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBBannerView;
+			productName = EBBannerView;
+			productReference = 247DF29ED345190562AD0E20D031B2D0 /* EBBannerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B395784BA1520ECA2B365B207049677A /* Pods-EBBanerViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522E15129BD7A3720DD8723017E4E2E4 /* Build configuration list for PBXNativeTarget "Pods-EBBanerViewTest" */;
+			buildPhases = (
+				651AAFFF7B1440EAE41752FF39F02E3E /* Headers */,
+				99110A55320D862742DEF720F55D068A /* Sources */,
+				498D9541A9A1ECDD1A43B0BB9F0B5B25 /* Frameworks */,
+				BCC55B26C1BB754EDE7C77D50AD52CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6CF975066EF9021E7B2633C7155626 /* PBXTargetDependency */,
+			);
+			name = "Pods-EBBanerViewTest";
+			productName = "Pods-EBBanerViewTest";
+			productReference = 7379FB574B89E21231C0A29D64751346 /* Pods_EBBanerViewTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 347DE8FA63FAB4D6F40236E2387EF7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F0022AD7BE65064C837E4B6E1D8006 /* EBBannerView */,
+				B395784BA1520ECA2B365B207049677A /* Pods-EBBanerViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC55B26C1BB754EDE7C77D50AD52CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D303FAA3A9AF9E02AA9C5AB17FA30E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC33AF6DED43DF089AB2E62F340532A /* EBBannerView.xib in Resources */,
+				9C46753F72DF4F2F5F875E44D55C1CDC /* EBBannerViewController.xib in Resources */,
+				F62E9A561033BC7E23AFE1D2FA1544CF /* EBMuteDetector.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B25C6ED2BC9CAFC23246ADD0C12BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2B882AA1D3456C3298BE190C6DFAE7 /* EBBannerView+Categories.m in Sources */,
+				A3199522C2D7680CBB5F069154A94734 /* EBBannerView-dummy.m in Sources */,
+				29767AA418B6A5D08EADCEB4F9484CBB /* EBBannerView.m in Sources */,
+				2DC098D2208060AF421F68D7CBB8C363 /* EBBannerViewController.m in Sources */,
+				E63CA3575B82842E30845352B18F87C7 /* EBBannerViewMaker.m in Sources */,
+				A16EA3A22D881625AB91D445084A3859 /* EBBannerWindow.m in Sources */,
+				3B88588EA26D01FB34D8587946B6E2DF /* EBCustomBannerView.m in Sources */,
+				1C04CFF92628ADF72532981050498C00 /* EBEmptyWindow.m in Sources */,
+				2CB2C9EDC99941ED698D5B01BA72E980 /* EBMuteDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99110A55320D862742DEF720F55D068A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E213272DF738731BD535197F5BFB5191 /* Pods-EBBanerViewTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB6CF975066EF9021E7B2633C7155626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EBBannerView;
+			target = 91F0022AD7BE65064C837E4B6E1D8006 /* EBBannerView */;
+			targetProxy = 3B65D593697C4E787C1ECC5EEEB5EEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		012A38AD3964524C2613D98DACA4C3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CBB0EF1AD357C98AF7D01D9F7DFDFD /* Pods-EBBanerViewTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EBBanerViewTest/Pods-EBBanerViewTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EBBanerViewTest/Pods-EBBanerViewTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CDAEAA4A47907E593642C30E44391CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6074B6F9E8A4490EEF7D41442C2FCA /* Pods-EBBanerViewTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EBBanerViewTest/Pods-EBBanerViewTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EBBanerViewTest/Pods-EBBanerViewTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4385028C1AF145B16996E4EC964922C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A17C60C75036C2EFA88ADEE20ADCE9 /* EBBannerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EBBannerView/EBBannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EBBannerView/EBBannerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EBBannerView/EBBannerView.modulemap";
+				PRODUCT_MODULE_NAME = EBBannerView;
+				PRODUCT_NAME = EBBannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDB76C1817647C4F3316FBBA35E945B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A17C60C75036C2EFA88ADEE20ADCE9 /* EBBannerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EBBannerView/EBBannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EBBannerView/EBBannerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EBBannerView/EBBannerView.modulemap";
+				PRODUCT_MODULE_NAME = EBBannerView;
+				PRODUCT_NAME = EBBannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17028F72E384F366638AE95AE207479E /* Build configuration list for PBXNativeTarget "EBBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB76C1817647C4F3316FBBA35E945B5 /* Debug */,
+				4385028C1AF145B16996E4EC964922C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522E15129BD7A3720DD8723017E4E2E4 /* Build configuration list for PBXNativeTarget "Pods-EBBanerViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDAEAA4A47907E593642C30E44391CB /* Debug */,
+				012A38AD3964524C2613D98DACA4C3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
